@@ -1,0 +1,208 @@
+body {
+    font-family: Barlow, sans-serif;
+}
+
+nav {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+nav a {
+    font-weight: 500;
+}
+
+.navbar-end > a, div {
+    margin-right: 40px;
+}
+
+#container-padding {
+    padding-top: 120px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 38px;
+    height: 44px;
+    color: black;
+    letter-spacing: 10px;
+}
+
+#about-paragraph {
+    margin-top: 40px;
+    font-size: 14px;
+    width: 500px;
+    letter-spacing: 0.5px;
+}
+
+#about-header {
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+
+a {
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+
+#logo {
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+    height: 30px;
+    color: black;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 500;
+    height: 25px;
+    color: black;
+    letter-spacing: 5px;
+}
+
+#project-header {
+    margin-top: 20px;
+}
+
+#project-title {
+    margin-bottom: 20px;
+}
+
+#works-columns {
+    margin-top: 100px;
+}
+
+.works-img {
+    box-shadow: 6px 6px 8px #575757;
+    opacity: 60%;
+}
+
+.description-paragraph {
+    font-size: 14px;
+    width: 600px;
+    letter-spacing: 0.5px;
+}
+
+#intersection1 {
+    padding-top: 20px;
+}
+
+#intersection2 {
+    padding-top: 100px;
+}
+
+#intersection3 {
+    padding-top: 100px;
+    padding-bottom: 160px;
+}
+
+#intersection4 {
+    padding-top: 100px;
+    margin-bottom: 120px;
+}
+
+#urbn-description {
+   padding-top: 50px;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.center-img {
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#urbn1 {
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+
+.disclaimer {
+    font-size: 14px;
+    color: #C4C4C4;
+    width: 600px;
+    letter-spacing: 0.5px;
+}
+
+.description2 {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+#illustrations {
+    padding-top: 20px;
+    margin-bottom: 100px;
+}
+
+#illustrations-img {
+    margin-top: 100px;
+}
+
+#illustrations2 {
+    width: 50%;
+}
+
+.animations {
+    margin-top: 100px;
+}
+
+#animations-bot {
+    margin-bottom: 120px;
+}
+
+#twitch {
+    padding-top: 20px;
+    margin-bottom: 100px;
+}
+
+.twitch-header {
+    margin-bottom: 30px;
+}
+
+.twitch2{
+    margin-bottom: 100px;
+}
+
+.emotes {
+    width: 15%;
+}
+
+#discord-overlays {
+    margin-bottom: 120px;
+}
+
+#contact-header {
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+
+#contact-left {
+    margin-right: 30px;
+    padding-right: 0px;
+    text-align: right;
+}
+
+#contact-right {
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    margin-top: 20px;
+    padding-left: 0px;
+    text-align: left;
+}
