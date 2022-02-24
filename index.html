@@ -12,11 +12,10 @@
 
 <body>
     <main>
-        <header>
-            <nav class="navbar is-white is-fixed-top" role="navigation" aria-label="main navigation">
+            <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
                 <div class="navbar-brand">
                     <a class="navbar-item" href="https://vivianknguyen.github.io/">
-                        <img id="logo" src="photos/logo.svg" width="112" height="28">
+                        <img id="logo" src="photos/vn logo.svg">
                     </a>
 
                     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
@@ -30,59 +29,112 @@
                 <div id="navbarBasicExample" class="navbar-menu">
                     <div class="navbar-end">
                         <a class="navbar-item" href="index.html">
-                            home
+                            <h4>Works</h4>
                         </a>
 
-                        <div class="navbar-item has-dropdown is-hoverable">
-                            <a class="navbar-link" href="works.html">
-                                works
-                            </a>
-
-                            <div class="navbar-dropdown">
-                                <a class="navbar-item" href="intersection.html">
-                                    intersection
-                                </a>
-                                <a class="navbar-item" href="urbn farm.html">
-                                    URBN farm
-                                </a>
-                                <a class="navbar-item" href="illustrations.html">
-                                    illustrations
-                                </a>
-                                <a class="navbar-item" href="twitch.html">
-                                    twitch
-                                </a>
-                            </div>
-                        </div>
+                        <a class="navbar-item" href="about.html">
+                            <h3>About</h3>
+                        </a>
 
                         <a class="navbar-item" href="contact.html">
-                            contact me
+                            <h3>Contact</h3>
                         </a>
 
                     </div>
                 </div>
             </nav>
-
-            <div class="container" id="container-padding">
+        <section>
+            <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <img src="photos/about-me.png"> </img>
+                        <h1 id="works-h1"> Hi, I'm Vivian!</h1>
+                        <h2 id="works-h2"> aspiring designer & cat mom</h2>
                     </div>
                     <div class="column">
-                        <h1 id="about-header"> ABOUT ME </h1>
-                        <p id="about-paragraph">Hi, my name is Vivian!<br> <br>I’m a designer with an educational
-                            background in architecture. I graduated with an Associate’s Degree in Architecture at San
-                            Diego Mesa College and a Bachelor’s Degree in Architecture at the University of California,
-                            Berkeley. <br>‍<br>Currently, my hobbies consists of playing and streaming video games,
-                            playing badminton, and drawing in my free time.<br>‍<br>Click <a
-                                href="https://drive.google.com/file/d/1d5WvhxXBtipYegRRqwpq0J_nCpG8B9AC/view?usp=sharing">here</a>
-                            for a PDF of my resume!</p>
+                        <img id="portrait" src="photos/portrait.svg"> </img>
+                    </div>
+                </div>
+                <div id="arrow-down">
+                    <button class="arrowDownBtn"><img src="icons/arrow down.svg"></img></button>
+                </div>
+            </div>
+        </section>
+        <section class="works">
+            <div class="container" id="works">
+                <a href="marketing design.html"><img id="works-img" src="photos/marketing design.svg"></img></a>
+                <a href="URBN FARM.html"><img id="works-img" src="photos/URBN FARM.svg"></img></a>
+                <div class="columns" id="works-img"> 
+                    <div class="column is-three-fifths">
+                        <a href="illustrations.html"><img src="photos/illustrations_1.svg" id="works-img2"></img></a>
+                    </div>
+                    <div class="column">
+                        <a href="animations.html"><img src="photos/animations_1.png"></img></a>
+                    </div>
+                </div>
+                <div class="columns" id="works-img">
+                    <div class="column">
+                        <a href="instagram.html"><img src="photos/instagram.svg"></img></a>
+                    </div>
+                    <div class="column is-three-fifths">
+                        <a href="twitch.html"><img src="photos/twitch.svg" id="works-img2"></img></a>
                     </div>
                 </div>
             </div>
-        </header>
+        </section>
+        <script src="js/index.js"></script>
+        <section>
+        <button class="scrollToTopBtn">
+            <img src="photos/scroll to top.svg"></img>
+        </button>
+        </section>
+        <script src="js/scrollToTopBtn.js"></script>
+        <footer class="footer">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-2" id="footer-nav1">
+                        <a href="index.html"><h5>Works</h5></a>
+                        <p id="p-footer">
+                        <a href="marketing design.html" id="footer-link">marketing design</a>
+                        <br>
+                        <a href="URBN FARM.html" id="footer-link">URBN FARM</a>
+                        <br>
+                        <a href="illustrations.html" id="footer-link">illustrations</a>
+                        <br>
+                        <a href="animations.html" id="footer-link">animations</a>
+                        <br>
+                        <a href="instagram.html" id="footer-link">instagram</a>
+                        <br>
+                        <a href="twitch.html" id="footer-link">twitch</a>
+                        </p>
+                    </div>
+                    <div class="column is-2" id="footer-nav2">
+                        <a href="about.html"><h5>About</h5> </a>
+                    </div>
+                    <div class="column is-2"> 
+                        <a href="contact.html"><h5>Contact</h5></a> 
+                    </div>
+                    <div class="column is-1" id="footer-icons">
+                        <a href="www.instagram.com/designsbyviv"><img src="icons/ig.svg"> </img></a>
+                    </div>
+                    <div class="column is-1" id="footer-icons">
+                        <a href="mailto: vivianknguyen96@gmail.com"><img src="icons/email.svg"> </img></a>
+                    </div>
+                    <div class="column is-1" id="footer-icons">
+                        <a href="twitch.tv/viveronii"><img src="icons/twitch.svg"> </img></a>
+                    </div>
+                    <div class="column is-1" id="footer-icons">
+                        <a href="www.linkedin.com/in/vivianknguyen96"><img src="icons/linkedin.svg"> </img></a>
+                    </div>
+                    <div class="column" id="footer-logo">
+                        <a href="vivianknguyen.github.io"><img id="logo" src="photos/vn logo.svg"> </img></a>
+                        <p id="p-footer">
+                            © Vivian Nguyen 2022
+                        </p>
+                    </div>
+                </div>
+            </div>
+          </footer>
     </main>
-
-
 </body>
 
 </html>

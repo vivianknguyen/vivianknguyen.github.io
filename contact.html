@@ -12,96 +12,106 @@
 
 <body>
     <main>
-        <header>
-            <nav class="navbar is-white is-fixed-top" role="navigation" aria-label="main navigation">
-                <div class="navbar-brand">
-                    <a class="navbar-item" href="https://vivianknguyen.github.io/">
-                        <img id="logo" src="photos/logo.svg" width="112" height="28">
+        <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="https://vivianknguyen.github.io/">
+                    <img id="logo" src="photos/vn logo.svg">
+                </a>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="index.html">
+                        <h3>Works</h3>
                     </a>
 
-                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
-                        data-target="navbarBasicExample">
-                        <span aria-hidden="true"></span>
-                        <span aria-hidden="true"></span>
-                        <span aria-hidden="true"></span>
+                    <a class="navbar-item" href="about.html">
+                        <h3>About</h3>
                     </a>
+
+                    <a class="navbar-item" href="contact.html">
+                        <h4>Contact</h4>
+                    </a>
+
                 </div>
-
-                <div id="navbarBasicExample" class="navbar-menu">
-                    <div class="navbar-end">
-                        <a class="navbar-item" href="index.html">
-                            home
-                        </a>
-
-                        <div class="navbar-item has-dropdown is-hoverable">
-                            <a class="navbar-link" href="works.html">
-                                works
-                            </a>
-
-                            <div class="navbar-dropdown">
-                                <a class="navbar-item" href="intersection.html">
-                                    intersection
-                                </a>
-                                <a class="navbar-item" href="urbn farm.html">
-                                    URBN farm
-                                </a>
-                                <a class="navbar-item" href="illustrations.html">
-                                    illustrations
-                                </a>
-                                <a class="navbar-item" href="twitch.html">
-                                    twitch
-                                </a>
-                            </div>
-                        </div>
-
-                        <a class="navbar-item" href="contact.html">
-                            contact me
-                        </a>
-
-                    </div>
-                </div>
-            </nav>
-
-            <div class="container" style="text-align: center;" id="container-padding">
-                <h1 id="contact-header"> LET'S CONNECT </h1>
-                <br>
+            </div>
+        </nav>
+        <section id="contact-title">
+            <h1>Let's connect!</h1>
+            <p>Please feel free to reach out to me on any of these platforms!</p>
+        </section>
+        <section id="contact-links">
+            <div class="container">
                 <div class="columns">
-                    <div id="contact-left" class="column is-5">
-                        <a href="mailto:vivianknguyen96@gmail.com">
-                            <img src="photos/email icon.svg"> </img>
-                        </a>
+                    <div class="column is-one-quarter">
+                        <img src="icons/email-brown.svg"> </img>
                     </div>
-                    <div id="contact-right" class="column">
-                        vivianknguyen96@gmail.com
+                    <div class="column is-one-quarter">
+                        <img id="contact-icon" src="icons/linkedin-brown.svg"> </img>
                     </div>
-                </div>
-
-                <div class="columns">
-                    <div id="contact-left" class="column is-5">
-                        <a href="https://www.linkedin.com/in/vivianknguyen96/">
-                            <img src="photos/linkedin icon.svg"> </img>
-                        </a>
+                    <div class="column is-one-quarter">
+                        <img src="icons/twitch-brown.svg"> </img>
                     </div>
-                    <div id="contact-right" class="column">
-                        vivianknguyen96
-                    </div>
-                </div>
-
-                <div class="columns">
-                    <div id="contact-left" class="column is-5">
-                        <a href="https://www.twitch.tv/viveronii">
-                            <img src="photos/twitch icon.svg"> </img>
-                        </a>
-                    </div>
-                    <div id="contact-right" class="column">
-                        viveronii
+                    <div class="column is-one-quarter">
+                        <img src="icons/ig-brown.svg"> </img>
                     </div>
                 </div>
             </div>
-        </header>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-2" id="footer-nav1">
+                        <a href="index.html"><h5>Works</h5></a>
+                        <p id="p-footer">
+                        <a href="marketing design.html" id="footer-link">marketing design</a>
+                        <br>
+                        <a href="URBN FARM.html" id="footer-link">URBN FARM</a>
+                        <br>
+                        <a href="illustrations.html" id="footer-link">illustrations</a>
+                        <br>
+                        <a href="animations.html" id="footer-link">animations</a>
+                        <br>
+                        <a href="instagram.html" id="footer-link">instagram</a>
+                        <br>
+                        <a href="twitch.html" id="footer-link">twitch</a>
+                        </p>
+                    </div>
+                    <div class="column is-2" id="footer-nav2">
+                        <a href="about.html"><h5>About</h5> </a>
+                    </div>
+                    <div class="column is-2"> 
+                        <a href="contact.html"><h5>Contact</h5></a> 
+                    </div>
+                    <div class="column is-1" id="footer-icons">
+                        <a href="www.instagram.com/designsbyviv"><img src="icons/ig.svg"> </img></a>
+                    </div>
+                    <div class="column is-1" id="footer-icons">
+                        <a href="mailto: vivianknguyen96@gmail.com"><img src="icons/email.svg"> </img></a>
+                    </div>
+                    <div class="column is-1" id="footer-icons">
+                        <a href="twitch.tv/viveronii"><img src="icons/twitch.svg"> </img></a>
+                    </div>
+                    <div class="column is-1" id="footer-icons">
+                        <a href="www.linkedin.com/in/vivianknguyen96"><img src="icons/linkedin.svg"> </img></a>
+                    </div>
+                    <div class="column" id="footer-logo">
+                        <a href="vivianknguyen.github.io"><img id="logo" src="photos/vn logo.svg"> </img></a>
+                        <p id="p-footer">
+                            © Vivian Nguyen 2022
+                        </p>
+                    </div>
+                </div>
+            </div>
+          </footer>
     </main>
-
-
 </body>
 
 </html>
