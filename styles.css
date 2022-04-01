@@ -297,3 +297,7 @@ button {
     opacity: 1;
     transform: translateY(0);
 }
+
+.navbar-link:not(.is-arrowless)::after {
+    border-color: #193f19;
+}
