@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', (event) => {
     var scrollToTopBtn = document.querySelector(".scrollToTopBtn");
     var rootElement = document.documentElement;
-    var footerHeight = document.querySelector(".footer").clientHeight;
+    var footerHeight = document.querySelector("footer").clientHeight;
 
     function handleScroll() {
         // Do something on scroll
