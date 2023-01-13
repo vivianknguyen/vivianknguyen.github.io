@@ -1,18 +1,41 @@
 body {
-    font-family: Montserrat, sans-serif;
+    font-family: 'Chillax', sans-serif;
+    font-family: 'Clash Display', sans-serif;
+    background-color: #FEF7ED;
 }
 
 nav {
     max-width: 90%;
-    height: 125px;
+    height: 110px;
     margin-left: auto;
     margin-right: auto;
 }
 
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-dropdown {
+    background-color: #FEF7ED;
+    border-radius: 10px;
+}
+
 .navbar-item {
-    margin-left: 70px;
-    color: #193F19;
-    text-decoration: none;
+    margin-left: 10px;
+}
+
+.navbar-item :hover {
+    color: #F99FDC;
+}
+
+.navbar-link :hover {
+    background: #FEF7ED;
+    color: #F99FDC;
+}
+
+.blue-navlink :hover {
+    background: #302EE7;
+    color: #FEF7ED;
 }
 
 #logo {
@@ -20,281 +43,133 @@ nav {
     max-height: 62px;
 }
 
+#footer-logo {
+    width: 64px;
+    max-height: 62px;
+    margin-bottom: 40px;
+}
+
 a {
-    font-weight: 500;
-    color: #193F19;
     text-decoration: none;
 }
 
-h1.display {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 60px;
-    color: #193F19;
-}
-
 h1 {
+    font-family: 'Clash Display', sans-serif;
     font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 59px;
-    color: #193F19;
-    margin-top: 30vh
+    font-weight: 500;
+    font-size: 96px;
+    color: #F99FDC;
 }
 
-h1.white {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 59px;
-    color: #EDEDED;
-    margin-top: 0 !important;
+h1.home-header {
+    margin-top: 25vh;
 }
 
-h2 {
+h1.title {
+    font-family: 'Clash Display', sans-serif;
     font-style: normal;
-    font-weight: 600;
-    font-size: 34px;
-    line-height: 41px;
-    color: #193F19;    
+    font-weight: 500;
+    font-size: 96px;
+    color: #F99FDC;
     margin-top: 15vh;
 }
 
-h2.about {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 34px;
-    line-height: 41px;
-    color: #193F19;
-    margin-top: 4vh !important;   
-}
-
-h2.small {
+h2 {
+    font-family: 'Chillax', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
-    line-height: 29px;
-    color: #193F19;
+    color: #F99FDC;
+    text-transform: uppercase;
 }
 
 h3 {
+    font-family: 'Chillax', sans-serif;
     font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 39px;
-    color: #193F19;
-}
-
-h3.reg {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 39px;
-    color: #193F19;
-}
-
-h3.small {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    color: #193F19;
-}
-
-h3.small-reg {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    color: #193F19;
-}
-
-h4{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    color: #193F19;
-    margin-top: 100px;
-    margin-bottom: 50px;
-}
-
-h4.reg{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    color: #957D5F;
-}
-
-h4.small{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 19.5px;
-    color: #193F19;
-}
-
-h4.small-reg{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19.5px;
-    color: #957D5F;
-}
-
-h5 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 19.5px;
-    color: #193F19;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-
-}
-
-h5.reg {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19.5px;
-    color: #193F19;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-
-}
-
-h5.small {
-    font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
-    line-height: 17px;
-    color: #193F19;
+    text-transform: uppercase;
+    color: #FEF7ED;
+    border: 1px solid #FEF7ED;
+    border-radius: 43px;
+    padding: 10px 30px;
 }
 
-h6 {
+h3.blue-nav {
+    font-family: 'Chillax', sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
-    line-height: 17px;
-    color: #193F19;
+    text-transform: uppercase;
+    color: #302EE7;
+    border: 1px solid #302EE7;
+    border-radius: 43px;
+    padding: 10px 30px;
 }
 
-h6.small {
+h3.blue-nav-active {
+    font-family: 'Chillax', sans-serif;
     font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 14.5px;
-    color: #193F19;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #F99FDC;
+    color: #FEF7ED;
+    border: 1px solid #F99FDC;
+    border-radius: 43px;
+    padding: 10px 30px;
+}
+
+h3.navmenu {
+    font-family: 'Chillax', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #0E0467;
+    border: none;
+    padding: 0;
+}
+
+h4 {
+    font-family: 'Clash Display', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    color: #0E0467;
+}
+
+h4.white {
+    color: #FEF7ED;
 }
 
 p {
+    font-family: 'Chillax', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 160%;
-    color: #193F19;
+    color: #0E0467;
+    width: 470px;
 }
 
-p.semi {
+p.home {
+    font-family: 'Chillax', sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 160%;
-    color: #193F19;
-}
-
-p.small {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 160%;
-    color: #193F19;
-}
-
-p.small-semi {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 160%;
-    color: #193F19;
+    color: #FEF7ED;
 }
 
 p.caption {
+    font-family: 'Chillax', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 14.5px;
-    color: #957D5F; 
-    margin-top: 15px;
+    color: #0E0467;
 }
 
-p.caption-semi {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 14.5px;
-    color: #193F19; 
-}
-
-p.caption-semi-cap {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 14.5px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #193F19; 
-}
-
-p.caption-semi-cap-white {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 14.5px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #EDEDED;
-}
-
-.caption-semi-cap-white {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 14.5px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #EDEDED;
-}
-
-p.caption-small {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 13.5px;
-    color: #193F19; 
-}
-
-p.caption-small-semi {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 13.5px;
-    color: #193F19; 
-}
-
-p.caption-small-semi-cap {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 13.5px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #193F19; 
-}
-
-.footer-bg{
+.footer-bg {
     position: relative;
     left: 0;
     bottom: 0;
@@ -303,48 +178,83 @@ p.caption-small-semi-cap {
     margin-top: 200px;
 }
 
-.footer-reg {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 14.5px;
-    color: #193F19; 
-    text-decoration: none;
-    margin-top: 16px;
-}
-
-.footer-reg-brown {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 14.5px;
-    color: #957D5F; 
-    text-decoration: none;
-    margin-top: 16px;
-}
-
-.footer-semi {
+a.footer-nav {
+    font-family: 'Chillax', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
-    line-height: 14.5px;
-    color: #193F19; 
+    color: #302EE7;
+    border: 1px solid #302EE7;
+    border-radius: 43px;
+    padding: 6px 30px;
 }
 
-.footer-semi-cap {
+a.footer-nav :hover {
+    background: #302EE7;
+    color: #FEF7ED;
+}
+
+a.footer-reg {
+    font-family: 'Chillax', sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 12px;
-    line-height: 14.5px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #193F19; 
-    padding-bottom: 20px;
-    margin-top: 16px;
+    color: #302EE7;
+}
+
+a.footer-caption {
+    font-family: 'Chillax', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #0E0467;
+    margin-top: 20px;
+}
+
+.footer-works {
+    margin-top: 20px;
 }
 
 .footer-icon {
-    margin-right: 30px;
+    margin-right: 24px;
+}
+
+.home-blue { 
+    background: #0E0467;
+    height: 100vh;
+}
+
+.works {
+    margin-top: 100px;
+}
+
+.works-content {
+    margin-top: 50px;
+}
+
+.works-img {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.marketing-img {
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.reseat-page {
+    height: 80vh;
+    filter: blur(15px);
+}
+
+.reseat-img {
+    position: absolute;
+    vertical-align: center;
+    width: 100%;
+    z-index: 1;
+    margin-top: 25vh;
 }
 
 .grid-works-menu {
@@ -359,7 +269,7 @@ p.caption-small-semi-cap {
 }
 
 #portrait {
-    margin-top: 5%;
+    margin-top: 10%;
     margin-left: 20%;
     height: 600px;
     width: auto;
@@ -393,7 +303,7 @@ p.caption-small-semi-cap {
 
 button {
     border: none;
-    background-color: white;
+    background-color: transparent;
 }
 
 #about {
@@ -401,7 +311,7 @@ button {
 }
 
 #about-margin {
-    margin-top: 10vh;
+    margin-top: 18vh;
 }
 
 #about-description {
@@ -440,6 +350,15 @@ button {
     text-align: center;
 }
 
+.tabs {
+    padding-top: 80px;
+}
+
+.vlogs {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
 .scrollToTopBtn {
     width: 50px;
     height: 50px;
@@ -461,19 +380,61 @@ button {
     border-color: #193f19;
 }
 
+.home-card {
+    margin-top: -8vh;
+}
+
+.card {
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+.card-image {
+    opacity: 1;
+    display: block;
+    width: 450px;
+    height: 450px;
+    transition: 0.5s ease-in-out;
+    backface-visibility: hidden;
+}
+
+.card-content {
+    position: absolute;
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.card:hover .card-image {
+    filter: blur(0.3rem);
+    -webkit-filter: blur(0.3rem);
+    border-radius: 20px;
+}
+
+.card:hover .card-content {
+    opacity: 1;
+    z-index: 2;
+}
+
 .works-card {
     position: relative;
     margin-bottom: 100px;
-    width: 1300px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    justify-content: center;
+    align-items: center;
 }
 
 .works-text {
     position: absolute;
-    margin-left: 7%;
-    margin-top: 12%;
-}
-
-div.works-card:hover {
-    opacity: 0.8;
+    margin-left: 10%;
+    margin-top: 35%;
 }
