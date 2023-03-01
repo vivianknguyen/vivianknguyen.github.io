@@ -249,14 +249,6 @@ a.footer-caption {
     filter: blur(15px);
 }
 
-.reseat-img {
-    position: absolute;
-    vertical-align: center;
-    width: 100%;
-    z-index: 1;
-    margin-top: 25vh;
-}
-
 .grid-works-menu {
     width: 860px;
     height: 300px;
