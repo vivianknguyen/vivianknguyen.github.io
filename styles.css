@@ -399,6 +399,7 @@ svg.work-icon {
 
 .headshot {
     position: absolute;
+    margin-top: 2.5%;
     height: 900px;
     right: -7%;
     top: -100%;
