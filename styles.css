@@ -2,6 +2,8 @@ body {
     font-family: 'Libre Baskerville', serif;
     font-family: 'Montserrat', sans-serif;
     background-color: #FCFCFC;
+    width: 100vw;
+
 }
 
 html {
@@ -72,15 +74,25 @@ h4 {
 h4.button-selected {
     position: absolute;
     text-align: center;
-    top: 27%;
+    top: 89%;
     left: 48%;
+    z-index: 4;
 }
 
 h4.button-selected2 {
     position: absolute;
     text-align: center;
-    top: 32%;
+    top: 91%;
     left: 48%;
+    z-index: 4;
+}
+
+h4.button-selected3 {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 46.5%;
+    z-index: 4;
 }
 
 h5 {
@@ -137,17 +149,17 @@ p {
     color: #202020;
 }
 
-p#works{
+p#works {
     padding-top: 10px;
     width: 450px;
 }
 
-p#works2{
+p#works2 {
     padding-top: 40%;
     width: 350px;
 }
 
-p#works4{
+p#works4 {
     padding-top: 10px;
     width: 350px;
 }
@@ -252,7 +264,8 @@ p.nav-active {
     margin-bottom: -9%;
     margin-left: 10%;
     margin-right: 10%;
-    z-index: 0;
+    position: relative;
+    z-index: 1;
 }
 
 .home-pg {
@@ -275,8 +288,8 @@ p.nav-active {
     padding-left: 24px;
     padding-right: 24px;
     border-radius: 70px;
-    margin-top: -9%;
-    margin-right: 100px;
+    margin-top: 1%;
+    margin-right: 10%;
     position: relative;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);
     z-index: 1;
@@ -290,40 +303,68 @@ p.nav-active {
     padding-left: 24px;
     padding-right: 24px;
     border-radius: 70px;
-    margin-top: -10%;
-    margin-right: 100px;
+    margin-top: -3%;
+    margin-right: 10%;
     position: relative;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);
     z-index: 1;
 }
 
 .container {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .selected-works-button {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    z-index: 3;
+}
+
+.selected-works-button2 {
     position: relative;
-    text-align: center;
+    top: 80%;
+    left: 40%;
     z-index: 3;
 }
 
 .icon-selected {
     position: absolute;
-    top: 40%;
-    left: 50%;
+    top: 94%;
+    left: 50.5%;
+    z-index: 4;
+}
+
+.icon-selected2 {
+    position: absolute;
+    top: 43%;
+    left: 48.5%;
     z-index: 4;
 }
 
 #selected-works {
     background-color: #F8F0E4;
-    height: 720px;
-    margin-top: -8%;
-    padding-left: 60px;
-    padding-right: 60px;
+    height: 620px;
+    margin-top: 9%;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-top: 60px;
     padding-bottom: 60px;
-    z-index: -1;
+    position: relative;
+    z-index: 0;
+}
+
+#selected-works2 {
+    background-color: #F8F0E4;
+    height: 620px;
+    margin-top: -9%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    position: relative;
+    z-index: 0;
 }
 
 #selected-works::-webkit-scrollbar {
@@ -331,14 +372,14 @@ p.nav-active {
     width: 4px;
 }
 
-#selected-works::-webkit-scrollbar-thumb:horizontal{
+#selected-works::-webkit-scrollbar-thumb:horizontal {
     background: #D64517;
     border-radius: 10px;
 }
 
 .card {
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     flex: 0 0 auto;
     z-index: 0;
 }
@@ -346,8 +387,8 @@ p.nav-active {
 .card-image {
     opacity: 1;
     display: block;
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     transition: 0.5s ease-in-out;
 }
 
@@ -384,36 +425,22 @@ svg.work-icon {
     margin-bottom: -4px;
 }
 
-.about-page {
-    padding-top: 20%;
-    height: 100vh;
-    margin-bottom: -9%;
-    margin-left: 10%;
-    margin-right: 10%;
-    z-index: 0;
-}
-
-.about {
-    position: relative;
-}
-
 .headshot {
     position: absolute;
     margin-top: 2.5%;
-    height: 900px;
+    height: 890px;
     right: -7%;
     top: -100%;
 }
 
 .contact {
-    width: 1400px;
+    width: 100vw;
     text-align: center;
-    margin-left: 5%;
 }
 
 .contact-page {
     padding-top: 20%;
-    height: 74vh;
+    height: 75vh;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -436,6 +463,7 @@ svg.work-icon {
     height: 201px;
     border-radius: 200px;
     margin-top: 20%;
+    margin-left: 15%;
     padding-top: 2.5%;
     padding-left: 15%;
 }
@@ -471,50 +499,34 @@ svg.work-icon {
 }
 
 #design-process {
-
-    padding-right: 10%;
-    margin-top: -8%;
+    margin-top: 9%;
 }
 
 .brief {
     width: 50vw;
     height: 941px;
     padding-left: 10%;
+    margin-right: 10%;
     background-color: #F8F0E4;
 }
 
-.ideate {
-    background-color: #D64517;
-    width: 905px;
-    height: 201px;
-    border-radius: 200px;
-}
-
 .footer-bg {
-    width: 100%;
-    height: 100px;
+    height: 10vh;
     margin-top: 150px;
     margin-left: 10%;
+    margin-right: 10%;
     text-align: center;
 }
 
-.footer-nav{
+.footer-nav {
     padding-left: 100px;
     text-align: center;
 }
 
 .works {
     padding-top: 15%;
-    height: 100vh;
     margin-left: 10%;
     margin-right: 10%;
-    z-index: 0;
-}
-
-.works2 {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: -8%;
     z-index: 0;
 }
 
@@ -563,8 +575,8 @@ svg.work-icon {
 
 .works-landing {
     padding-top: 15%;
-    padding-left: 10%;
-    padding-right: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
     height: 100vh;
     position: relative;
     z-index: 1;
@@ -700,31 +712,31 @@ svg.work-icon {
 
 .motion {
     padding-top: 8%;
-    padding-left: 10%;
-    padding-right: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
     position: relative;
     z-index: 0;
 }
 
 .social {
     margin-top: -30%;
-    padding-left: 10%;
-    padding-right: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
     position: relative;
     z-index: 1;
 }
 
 .logo {
-    padding-left: 10%;
-    padding-right: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
     position: relative;
     z-index: 0;
 }
 
 .ui {
     margin-top: -35%;
-    padding-left: 10%;
-    padding-right: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
     position: relative;
     z-index: 1;
 }
