@@ -4,9 +4,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
     var footerHeight = document.querySelector("footer").clientHeight;
 
     function handleScroll() {
-        // Do something on scroll
+        // Do something on scroll, change when button appears
         var scrollTotal = rootElement.scrollHeight - rootElement.clientHeight;
-        if (rootElement.scrollTop / scrollTotal > 0.5) {
+        if (rootElement.scrollTop / scrollTotal > 0.1) {
             // Show button
             let bottom = 20
             if (scrollTotal - rootElement.scrollTop < footerHeight) {
