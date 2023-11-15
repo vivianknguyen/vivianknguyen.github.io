@@ -74,23 +74,15 @@ h4 {
 h4.button-selected {
     position: absolute;
     text-align: center;
-    top: 89%;
-    left: 48%;
+    bottom: 7%;
+    left: 47.5%;
     z-index: 4;
 }
 
 h4.button-selected2 {
     position: absolute;
     text-align: center;
-    top: 91%;
-    left: 48%;
-    z-index: 4;
-}
-
-h4.button-selected3 {
-    position: absolute;
-    text-align: center;
-    top: 30%;
+    bottom: 27%;
     left: 46.5%;
     z-index: 4;
 }
@@ -288,7 +280,6 @@ p.nav-active {
     padding-left: 24px;
     padding-right: 24px;
     border-radius: 70px;
-    margin-top: 1%;
     margin-right: 10%;
     position: relative;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);
@@ -316,13 +307,25 @@ p.nav-active {
 }
 
 .selected-works-button {
-    position: absolute;
+    position: relative;
+    top: 43%;
+    z-index: 3;
+}
+
+.selected-works-button2 {
+    position: relative;
+    top: 36%;
+    z-index: 3;
+}
+
+.selected-works-button3 {
+    position: relative;
     top: 80%;
     left: 40%;
     z-index: 3;
 }
 
-.selected-works-button2 {
+.selected-works-button4 {
     position: relative;
     top: 80%;
     left: 40%;
@@ -331,14 +334,13 @@ p.nav-active {
 
 .icon-selected {
     position: absolute;
-    top: 94%;
-    left: 50.5%;
+    bottom: 3.5%;
     z-index: 4;
 }
 
 .icon-selected2 {
     position: absolute;
-    top: 43%;
+    bottom: 24%;
     left: 48.5%;
     z-index: 4;
 }
@@ -352,7 +354,7 @@ p.nav-active {
     padding-top: 60px;
     padding-bottom: 60px;
     position: relative;
-    z-index: 0;
+    z-index: 1;
 }
 
 #selected-works2 {
@@ -378,8 +380,8 @@ p.nav-active {
 }
 
 .card {
-    width: 500px;
-    height: 500px;
+    background-color: #F8F0E4;
+    box-shadow: none;
     flex: 0 0 auto;
     z-index: 0;
 }
@@ -387,8 +389,7 @@ p.nav-active {
 .card-img {
     opacity: 1;
     display: block;
-    width: 500px;
-    height: 500px;
+
     transition: 0.5s ease-in-out;
 }
 
@@ -427,7 +428,7 @@ svg.work-icon {
 
 .headshot {
     position: absolute;
-    margin-top: 2.5%;
+    margin-top: 5%;
     height: 890px;
     right: -7%;
     top: -100%;
@@ -531,8 +532,6 @@ svg.work-icon {
 }
 
 .works-card {
-    width: 500px;
-    height: 500px;
     flex: 0 0 auto;
     z-index: 0;
     position: relative;
@@ -541,8 +540,6 @@ svg.work-icon {
 .works-card-img {
     opacity: 1;
     display: block;
-    width: 500px;
-    height: 500px;
     transition: 0.5s ease-in-out;
 }
 
