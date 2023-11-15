@@ -354,7 +354,7 @@ p.nav-active {
     padding-top: 60px;
     padding-bottom: 60px;
     position: relative;
-    z-index: 1;
+    z-index: 0;
 }
 
 #selected-works2 {
