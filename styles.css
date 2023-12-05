@@ -94,10 +94,17 @@ h5 {
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+    color: #202020;
 }
 
 h5.description {
-    padding-top: 70px;
+    margin-left: 10%;
+    width: 350px;
+}
+
+h5.design {
+    padding-top: 10%;
+    width: 350px;
 }
 
 h6 {
@@ -112,12 +119,12 @@ h6 {
 }
 
 h6.ui-logo {
-    margin-bottom: 10%;
+    margin-bottom: 15%;
 }
 
 h6.img-caption {
     position: absolute;
-    top: 93%;
+    top: 92%;
     right: 3%;
 }
 
@@ -143,17 +150,10 @@ p {
 
 p#works {
     padding-top: 10px;
-    width: 450px;
 }
 
 p#works2 {
-    padding-top: 40%;
-    width: 350px;
-}
-
-p#works4 {
-    padding-top: 10px;
-    width: 350px;
+    margin-left: 10%;
 }
 
 p.description {
@@ -264,6 +264,15 @@ p.nav-active {
     margin-left: -6.5%;
 }
 
+.about-page {
+    height: 100vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 15%;
+    position: relative;
+    z-index: 0;
+}
+
 .ending {
     padding-top: 150px;
 }
@@ -281,6 +290,7 @@ p.nav-active {
     padding-right: 24px;
     border-radius: 70px;
     margin-right: 10%;
+    margin-top: 2.5%;
     position: relative;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);
     z-index: 1;
@@ -295,7 +305,7 @@ p.nav-active {
     padding-right: 24px;
     border-radius: 70px;
     margin-top: -3%;
-    margin-right: 10%;
+    margin-right: -2%;
     position: relative;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);
     z-index: 1;
@@ -327,8 +337,8 @@ p.nav-active {
 
 .selected-works-button4 {
     position: relative;
-    top: 80%;
-    left: 40%;
+    bottom: -9%;
+    left: 39.5%;
     z-index: 3;
 }
 
@@ -347,7 +357,6 @@ p.nav-active {
 
 #selected-works {
     background-color: #F8F0E4;
-    height: 620px;
     margin-top: 9%;
     padding-left: 10%;
     padding-right: 10%;
@@ -359,8 +368,6 @@ p.nav-active {
 
 #selected-works2 {
     background-color: #F8F0E4;
-    height: 620px;
-    margin-top: -9%;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 60px;
@@ -428,10 +435,10 @@ svg.work-icon {
 
 .headshot {
     position: absolute;
-    margin-top: 5%;
-    height: 890px;
+    margin-top: -5%;
+    padding-right: 5%;
+    height: 800px;
     right: -7%;
-    top: -100%;
 }
 
 .contact {
@@ -460,33 +467,29 @@ svg.work-icon {
 
 .design-desc2 {
     background-color: #D64517;
-    width: 80vw;
     height: 201px;
-    border-radius: 200px;
+    border-radius: 200px 0px 0px 200px;
     margin-top: 20%;
-    margin-left: 15%;
-    padding-top: 2.5%;
-    padding-left: 15%;
+    margin-left: -15%;
+    padding-top: 4%;
+    padding-left: 25%;
 }
 
 .design-desc3 {
     background-color: #202020;
-    width: 50vw;
-    height: 608px;
-    padding-top: 6.5%;
-    padding-left: 12.5%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-left: 12%;
+    padding-right: 12%;
     margin-top: -4%;
     z-index: 1;
 }
 
 .design-desc4 {
     background-color: #3C6A2C;
-    width: 50vw;
     height: 700px;
-    padding-top: 10%;
-    padding-left: 10%;
+    padding: 10%;
     margin-top: -4%;
-    margin-bottom: -9%;
 }
 
 .design-page {
@@ -504,10 +507,8 @@ svg.work-icon {
 }
 
 .brief {
-    width: 50vw;
-    height: 941px;
+    height: 850px;
     padding-left: 10%;
-    margin-right: 10%;
     background-color: #F8F0E4;
 }
 
@@ -574,9 +575,7 @@ svg.work-icon {
     padding-top: 15%;
     margin-left: 10%;
     margin-right: 10%;
-    height: 100vh;
-    position: relative;
-    z-index: 1;
+    margin-bottom: 3%;
 }
 
 .works-landing2 {
@@ -650,12 +649,12 @@ svg.work-icon {
 
 .works-beige {
     background-color: #F8F0E4;
-    width: 40vw;
-    height: 998px;
-    margin-top: -20%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     margin-bottom: 10%;
     position: relative;
-    z-index: 0;
 }
 
 #works-beige {
@@ -663,18 +662,8 @@ svg.work-icon {
     padding-left: 50%;
 }
 
-#works-beige-text {
-    position: absolute;
-    right: 0;
-}
-
-#works-beige-text2 {
-    padding-top: 20%;
-    padding-left: 7.5%;
-}
-
 .call-out-text {
-    margin-left: -42%;
+    margin-left: -36%;
     padding-bottom: 10px;
 }
 
@@ -695,20 +684,20 @@ svg.work-icon {
 
 .works-grid3 {
     width: 100%;
-    height: 600px;
+    height: 620px;
     object-fit: cover;
     position: relative;
 }
 
 .works-grid-tall {
     width: 100%;
-    height: 1008px;
+    height: 1000px;
     object-fit: cover;
     position: relative;
 }
 
 .motion {
-    padding-top: 8%;
+    padding-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
     position: relative;
@@ -730,20 +719,13 @@ svg.work-icon {
     z-index: 0;
 }
 
-.ui {
-    margin-top: -35%;
-    margin-left: 10%;
-    margin-right: 10%;
-    position: relative;
-    z-index: 1;
-}
-
 .position-relative {
     position: relative;
 }
 
-.grid-margin {
-    margin-bottom: 0% !important;
+.margins {
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 button {
@@ -770,4 +752,15 @@ button {
 
 .navbar-link:not(.is-arrowless)::after {
     border-color: #193f19;
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-family: 'Libre Baskerville', serif;
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 88%;
+        color: #202020;
+    }
 }
