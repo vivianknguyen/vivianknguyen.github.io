@@ -1,191 +1,206 @@
 <!DOCTYPE html>
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title></title>
-    <meta name="description" content="vivian. Online Portfolio">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <meta name="description" content="vivian. Online Portfolio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-<body>
+  <body>
+    <nav
+      class="navbar is-transparent"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+          <img id="logo" src="photos/vn logo.svg" />
+        </a>
+
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end">
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="index.html">
+              <h4>Works</h4>
+            </a>
+
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="marketing_design.html">
+                <h3>marketing design</h3>
+              </a>
+              <a class="navbar-item" href="urbn_farm.html">
+                <h3>URBN FARM</h3>
+              </a>
+              <a class="navbar-item" href="illustrations.html">
+                <h3>illustrations</h3>
+              </a>
+              <a class="navbar-item" href="instagram.html">
+                <h3>instagram</h3>
+              </a>
+              <a class="navbar-item" href="animations.html">
+                <h3>animations</h3>
+              </a>
+              <a class="navbar-item" href="twitch.html">
+                <h3>twitch</h3>
+              </a>
+            </div>
+          </div>
+
+          <a class="navbar-item" href="about.html">
+            <h3>About</h3>
+          </a>
+
+          <a class="navbar-item" href="contact.html">
+            <h3>Contact</h3>
+          </a>
+        </div>
+      </div>
+    </nav>
     <main>
-        <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-                <a class="navbar-item" href="https://vivianknguyen.github.io/">
-                    <img id="logo" src="photos/vn logo.svg">
-                </a>
-
-                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
-                    data-target="navbarBasicExample">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                </a>
+      <section>
+        <div class="container" id="width">
+          <h1 id="h1-title">twitch</h1>
+          <p id="description">
+            I started streaming on Twitch in my free time to challenge myself to
+            get out of my comfort zone while also playing video games! I wanted
+            to showcase the emotes, badges, and overlays made for my streams. I
+            hope to expand this hobby into creating content on Tiktok and
+            Youtube in the future.
+          </p>
+        </div>
+        <div class="container" id="width">
+          <h4 id="subtitle2">Panels</h4>
+          <div class="columns">
+            <div class="column">
+              <img src="photos/panel-about.png" />
             </div>
-
-            <div id="navbarBasicExample" class="navbar-menu">
-                <div class="navbar-end">
-                    <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link" href="index.html">
-                            <h4>Works</h4>
-                        </a>
-
-                        <div class="navbar-dropdown">
-                            <a class="navbar-item" href="marketing_design.html">
-                                <h3>marketing design</h3>
-                            </a>
-                            <a class="navbar-item" href="urbn_farm.html">
-                                <h3>URBN FARM</h3>
-                            </a>
-                            <a class="navbar-item" href="illustrations.html">
-                                <h3>illustrations</h3>
-                            </a>
-                            <a class="navbar-item" href="instagram.html">
-                                <h3>instagram</h3>
-                            </a>
-                            <a class="navbar-item" href="animations.html">
-                                <h3>animations</h3>
-                            </a>
-                            <a class="navbar-item" href="twitch.html">
-                                <h3>twitch</h3>
-                            </a>
-                        </div>
-                    </div>
-
-                    <a class="navbar-item" href="about.html">
-                        <h3>About</h3>
-                    </a>
-
-                    <a class="navbar-item" href="contact.html">
-                        <h3>Contact</h3>
-                    </a>
-
-                </div>
+            <div class="column">
+              <img src="photos/panel-socials.png" />
             </div>
-        </nav>
-        <section>
-            <div class="container" id="width">
-                <h1 id="h1-title">twitch</h1>
-                <p id="description">
-                    I started streaming on Twitch in my free time to challenge myself to get out of my comfort zone
-                    while also playing video games! I wanted to showcase the emotes, badges, and overlays made for my
-                    streams. I hope to expand this hobby into creating content on Tiktok and Youtube in the future.
-                </p>
+            <div class="column">
+              <img src="photos/panel-rules.png" />
             </div>
-            <div class="container" id="width">
-                <h4 id="subtitle2">
-                    Panels
-                </h4>
-                <div class="columns">
-                    <div class="column">
-                        <img src="photos/panel-about.png"></img>
-                    </div>
-                    <div class="column">
-                        <img src="photos/panel-socials.png"></img>
-                    </div>
-                    <div class="column">
-                        <img src="photos/panel-rules.png"></img>
-                    </div>
-                    <div class="column">
-                        <img src="photos/panel-donations.png"></img>
-                    </div>
-                </div>
-                <h4 id="subtitle">
-                    Emotes & badges
-                </h4>
-                <div class="columns">
-                    <div class="column">
-                        <img src="photos/vivhi.png"></img>
-                    </div>
-                    <div class="column">
-                        <img src="photos/vivboo.png"></img>
-                    </div>
-                    <div class="column">
-                        <img src="photos/sushi1-72.png"></img>
-                    </div>
-                    <div class="column">
-                        <img src="photos/sushi2-72.png"></img>
-                    </div>
-                    <div class="column">
-                        <img src="photos/sushi3-72.png"></img>
-                    </div>
-                    <div class="column">
-                        <img src="photos/sub badge.png"></img>
-                    </div>
-                    <div class="column">
-                        <img src="photos/channel points.png"></img>
-                    </div>
-                </div>
-                <h4 id="subtitle">
-                    Overlays
-                </h4>
-                <div class="columns">
-                    <div class="column">
-                        <img src="photos/bunny.png"></img>
-                    </div>
-                    <div class="column">
-                        <img src="photos/bunny notif.gif"></img>
-                    </div>
-                </div>
-                <img src="photos/overlays.png"></img>
+            <div class="column">
+              <img src="photos/panel-donations.png" />
             </div>
-        </section>
-        <section>
-            <button class="scrollToTopBtn">
-                <img src="photos/scroll to top.svg"></img>
-            </button>
-            </section>
-            <script src="js/scrollToTopBtn.js"></script>
-            <footer class="footer">
-                <div class="container">
-                    <div class="columns">
-                        <div class="column is-2" id="footer-nav1">
-                            <a href="index.html"><h5>Works</h5></a>
-                            <p id="p-footer">
-                            <a href="marketing_design.html" id="footer-link">marketing design</a>
-                            <br>
-                            <a href="urbn_farm.html" id="footer-link">URBN FARM</a>
-                            <br>
-                            <a href="illustrations.html" id="footer-link">illustrations</a>
-                            <br>
-                            <a href="animations.html" id="footer-link">animations</a>
-                            <br>
-                            <a href="instagram.html" id="footer-link">instagram</a>
-                            <br>
-                            <a href="twitch.html" id="footer-link">twitch</a>
-                            </p>
-                        </div>
-                        <div class="column is-2" id="footer-nav2">
-                            <a href="about.html"><h5>About</h5> </a>
-                        </div>
-                        <div class="column is-2"> 
-                            <a href="contact.html"><h5>Contact</h5></a> 
-                        </div>
-                        <div class="column is-1" id="footer-icons">
-                            <a href="https://www.instagram.com/designsbyviv"><img src="icons/ig.svg"> </img></a>
-                        </div>
-                        <div class="column is-1" id="footer-icons">
-                            <a href="mailto: vivianknguyen96@gmail.com"><img src="icons/email.svg"> </img></a>
-                        </div>
-                        <div class="column is-1" id="footer-icons">
-                            <a href="https://www.twitch.tv/viveronii"><img src="icons/twitch.svg"> </img></a>
-                        </div>
-                        <div class="column is-1" id="footer-icons">
-                            <a href="https://www.linkedin.com/in/vivianknguyen96"><img src="icons/linkedin.svg"> </img></a>
-                        </div>
-                        <div class="column" id="footer-logo">
-                            <a href="https://vivianknguyen.github.io"><img id="logo" src="photos/vn logo.svg"> </img></a>
-                            <p id="p-footer">
-                                © Vivian Nguyen 2022
-                            </p>
-                        </div>
-                    </div>
-                </div>
-              </footer>
+          </div>
+          <h4 id="subtitle">Emotes & badges</h4>
+          <div class="columns">
+            <div class="column">
+              <img src="photos/vivhi.png" />
+            </div>
+            <div class="column">
+              <img src="photos/vivboo.png" />
+            </div>
+            <div class="column">
+              <img src="photos/sushi1-72.png" />
+            </div>
+            <div class="column">
+              <img src="photos/sushi2-72.png" />
+            </div>
+            <div class="column">
+              <img src="photos/sushi3-72.png" />
+            </div>
+            <div class="column">
+              <img src="photos/sub badge.png" />
+            </div>
+            <div class="column">
+              <img src="photos/channel points.png" />
+            </div>
+          </div>
+          <h4 id="subtitle">Overlays</h4>
+          <div class="columns">
+            <div class="column">
+              <img src="photos/bunny.png" />
+            </div>
+            <div class="column">
+              <img src="photos/bunny notif.gif" />
+            </div>
+          </div>
+          <img src="photos/overlays.png" />
+        </div>
+      </section>
+      <section>
+        <button class="scrollToTopBtn">
+          <img src="photos/scroll to top.svg" />
+        </button>
+      </section>
     </main>
-</body>
-
+    <script src="js/scrollToTopBtn.js"></script>
+    <footer class="footer">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-2" id="footer-nav1">
+            <a href="index.html"><h5>Works</h5></a>
+            <p id="p-footer">
+              <a href="marketing_design.html" id="footer-link"
+                >marketing design</a
+              >
+              <br />
+              <a href="urbn_farm.html" id="footer-link">URBN FARM</a>
+              <br />
+              <a href="illustrations.html" id="footer-link">illustrations</a>
+              <br />
+              <a href="animations.html" id="footer-link">animations</a>
+              <br />
+              <a href="instagram.html" id="footer-link">instagram</a>
+              <br />
+              <a href="twitch.html" id="footer-link">twitch</a>
+            </p>
+          </div>
+          <div class="column is-2" id="footer-nav2">
+            <a href="about.html"><h5>About</h5> </a>
+          </div>
+          <div class="column is-2">
+            <a href="contact.html"><h5>Contact</h5></a>
+          </div>
+          <div class="column is-1" id="footer-icons">
+            <a href="https://www.instagram.com/designsbyviv"
+              ><img src="icons/ig.svg"
+            /></a>
+          </div>
+          <div class="column is-1" id="footer-icons">
+            <a href="mailto: vivianknguyen96@gmail.com"
+              ><img src="icons/email.svg"
+            /></a>
+          </div>
+          <div class="column is-1" id="footer-icons">
+            <a href="https://www.twitch.tv/viveronii"
+              ><img src="icons/twitch.svg"
+            /></a>
+          </div>
+          <div class="column is-1" id="footer-icons">
+            <a href="https://www.linkedin.com/in/vivianknguyen96"
+              ><img src="icons/linkedin.svg"
+            /></a>
+          </div>
+          <div class="column" id="footer-logo">
+            <a href="/"><img id="logo" src="photos/vn logo.svg" /></a>
+            <p id="p-footer">© Vivian Nguyen 2022</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

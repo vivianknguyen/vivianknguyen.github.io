@@ -1,277 +1,308 @@
 <!DOCTYPE html>
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vivian Nguyen Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="/photos/vn Abstract Logo.svg">
-    <meta name="description" content="vivian. Online Portfolio">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="/photos/vn Abstract Logo.svg" />
+    <meta name="description" content="vivian. Online Portfolio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-</head>
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
+    <nav class="level navbar is-fixed-top">
+      <div class="level-item has-text-centered">
+        <a href="about.html">
+          <div class="nav-button">
+            <h3>About</h3>
+          </div>
+          <p class="nav">Vivian</p>
+        </a>
+      </div>
+      <div class="level-item has-text-centered">
+        <a href="works.html">
+          <div class="nav-button">
+            <h3>Work</h3>
+          </div>
+          <p class="nav">Cases</p>
+        </a>
+      </div>
+      <div class="level-item has-text-centered">
+        <p>
+          <a href="/">
+            <img
+              class="logo"
+              src="photos/vn Abstract Logo.svg"
+              alt=""
+              style="height: 60px"
+            />
+          </a>
+        </p>
+      </div>
+      <div class="level-item has-text-centered">
+        <a href="design.html">
+          <div class="nav-button">
+            <h3>Design</h3>
+          </div>
+          <p class="nav">Process</p>
+        </a>
+      </div>
+      <div class="level-item has-text-centered">
+        <a href="contact.html">
+          <div class="nav-button">
+            <h3>Contact</h3>
+          </div>
+          <p class="nav">To Create</p>
+        </a>
+      </div>
+    </nav>
     <main>
-        <nav class="level navbar is-fixed-top">
-            <div class="level-item has-text-centered">
-                <a href="about.html">
-                    <div class="nav-button">
-                        <h3>About</h3>
-                    </div>
-                    <p class="nav">Vivian</p>
-                </a>
-            </div>
-            <div class="level-item has-text-centered">
-                <a href="works.html">
-                    <div class="nav-button">
-                        <h3>Work</h3>
-                    </div>
-                    <p class="nav">Cases</p>
-                </a>
-            </div>
-            <div class="level-item has-text-centered">
-                <p>
-                    <a href="https://vivianknguyen.github.io/">
-                        <img class="logo" src="photos/vn Abstract Logo.svg" alt="" style="height: 60px;">
-                    </a>
-                </p>
-            </div>
-            <div class="level-item has-text-centered">
-                <a href="design.html">
-                    <div class="nav-button">
-                        <h3>Design</h3>
-                    </div>
-                    <p class="nav">Process</p>
-                </a>
-            </div>
-            <div class="level-item has-text-centered">
-                <a href="contact.html">
-                    <div class="nav-button">
-                        <h3>Contact</h3>
-                    </div>
-                    <p class="nav">To Create</p>
-                </a>
-            </div>
-        </nav>
-        <section class="works-landing">
-            <div class="columns is-vcentered">
-                <div class="column">
-                    <h1>Motion<br>Design</h1>
-                    <h6><span class="green">GIFS | Motion Graphics</span></h6>
-                </div>
-                <div class="column">
-                    <h5>GIPHY</h5>
-                    <p id="works">For Microsoft Build 2023, the Creative team produced a collection of 20 captivating GIFs
-                        strategically crafted as authentic content. These GIFs were purposefully designed to be
-                        disseminated across Microsoft's extensive array of social channels, aiming to generate and
-                        amplify excitement surrounding the event.<br><br>
-                        In a remarkable testament to their success, within the initial 24 hours of their release, the
-                        GIFs proliferated across the Giphy library, amassing an astounding 30.8 million views. Within
-                        the first 48 hours, it reached 93.6 million views. Throughout the entire week of Microsoft
-                        Build, the GIFs maintained their momentum, accumulating a staggering total of over 109 million
-                        views on Giphy.<br><br>
-                        Among this collection, the most high-performing GIF I made garnered 80+ million views.</p>
-                </div>
-            </div>
-        </section>
-        <section class="works-beige">
-            <div class="columns is-vcentered">
-                <div class="column">
-                    <img src="photos/selected-works-motion.gif">
-                    <h6><span class="green">80+ Million Views</span></h6>
-                </div>
-                <div class="column">
-                    <img src="photos/motion-lunch-break.gif">
-                    <h6><span class="green">989+ Thousand Views</span></h6>
-                </div>
-                <div class="column">
-                    <img src="photos/motion-summer.gif">
-                    <h6><span class="green">202+ Thousand views</span></h6>
-                </div>
-                <div class="column">
-                    <img src="photos/motion-pool.gif">
-                    <h6><span class="green">130+ Thousand views</span></h6>
-                </div>
-            </div>
-        </section>
-        </section>
-        <section class="has-text-centered">
-            <p class="call-out-text">Currently, the Creative team's GIFs in the Giphy library has gained</p>
-            <h1><span class="orange">1.1+</span> Billion Views</h1>
-        </section>
-        <section class="motion">
-            <h3 class="header">Others GIFs & stickers in the Giphy library:</h3>
-            <div class="columns is-vcentered is-centered">
-                <div class="column position-relative">
-                    <img class="position-relative" src="photos/motion-typing-1.gif">
-                    <h6 class="img-caption"><span class="white">598+ Thousand views</span></h6>
-                </div>
-                <div class="column position-relative">
-                    <img class="position-relative" src="photos/motion-typing-2.gif">
-                    <h6 class="img-caption"><span class="white">365+ Thousan</span><span class="black">d views</span></h6>
-                </div>
-            </div>
-            <div class="columns">
-                <div class="column is-2">
-                    <img src="photos/Stickers/Azure/azure_{.gif">
-                    <img src="photos/Stickers/Azure/azure_clipR.gif">
-                </div>
-                <div class="column is-2">
-                    <img src="photos/Stickers/Azure/azure_}.gif">
-                    <img src="photos/Stickers/Azure/azure_clipL.gif">
-                </div>
-                <div class="column is-2">
-                    <img src="photos/Stickers/Azure/azure_parallelL.gif">
-                    <img src="photos/Stickers/Azure/azure_knotL.gif">
-                </div>
-                <div class="column is-2">
-                    <img src="photos/Stickers/Azure/azure_parallelR.gif">
-                    <img src="photos/Stickers/Azure/azure_knotR.gif">
-                </div>
-            </div>
-            <div class="columns grid-margin">
-                <div class="column is-2">
-                    <img src="photos/Stickers/{.gif">
-                    <img src="photos/Stickers/clipR.gif">
-                </div>
-                <div class="column is-2">
-                    <img src="photos/Stickers/}.gif">
-                    <img src="photos/Stickers/clipL.gif">
-                </div>
-                <div class="column is-2">
-                    <img src="photos/Stickers/parallelL.gif">
-                    <img src="photos/Stickers/knotL.gif">
-                </div>
-                <div class="column is-2">
-                    <img src="photos/Stickers/parallelR.gif">
-                    <img src="photos/Stickers/knotR.gif">
-                </div>
-            </div>
-        </section>
-        <section class="works-landing">
-            <div class="columns is-vcentered">
-                <div class="column">
-                    <img src="photos/motion-clippy.gif">
-                </div>
-                <div class="column works-landing-content">
-                    <h5>Custom Engagement Motion Graphics</h5>
-                    <p id="works">For each event held by Microsoft, our team would create real-time custom GIFs to engage with the audience on X (formerly known as Twitter). Here are a few GIFs made to interact with these audiences.</p>
-                </div>
-            </div>
-        </section>
-        <section class="margins">
-            <div class="columns">
-                <div class="column position-relative is-4">
-                    <img src="photos/motion-arcade.gif">
-                </div>
-                <div class="column position-relative is-4">
-                    <img src="photos/motion-high-five.gif">
-                </div>
-                <div class="column position-relative is-4">
-                    <img src="photos/motion-kickoff.gif">
-                </div>
-            </div>
-            <div class="columns">
-                <div class="column position-relative is-4">
-                    <img src="photos/motion-hand-huddle.gif">
-                </div>
-                <div class="column position-relative is-4">
-                    <img src="photos/motion-badge.gif">
-                </div>
-                <div class="column position-relative is-4">
-                    <img src="photos/motion-watch.gif">
-                </div>
-            </div>
-            <div class="columns">
-                <div class="column position-relative is-4">
-                    <img src="photos/motion-vacation.gif">
-                </div>
-                <div class="column position-relative is-4">
-                    <img src="photos/motion-cheers.gif">
-                </div>
-                <div class="column position-relative is-4">
-                    <img src="photos/motion-see-you-there.gif">
-                </div>
-            </div>
-            <div class="columns">
-                <div class="column position-relative is-4">
-                    <img src="photos/motion-wave.gif">
-                </div>
-                <div class="column position-relative is-4">
-                    <img src="photos/motion-mvp.gif">
-                </div>
-                <div class="column position-relative is-4">
-                    <img src="photos/motion-rooting-for-you.gif">
-                </div>
-            </div>
-            <a href="works.html">
-                <button class="works-end-btn">
-                    <h6 class="btn">
-                        <span class="black">View all Works</span>
-                        <svg class="work-icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15"
-                            viewBox="0 0 15 15" fill="none">
-                            <path d="M6.25 10.625L9.375 7.5L6.25 4.375" stroke="#202020" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                        </svg>
-                    </h6>
-                </button>
-            </a>
-        </section>
-        <section class="ending">
-            <div>
-                <h1 class="has-text-centered">Create together.</h1>
-                <p class="has-text-centered end-pg">Feel free to connect with me via e-mail or through any other social
-                    media platform.
-                    &emsp;&emsp;&emsp;&emsp;&emsp;
-                    &emsp; <u>Let's create something great!</u></p>
-            </div>
-        </section>
-        <section>
-            <button class="scrollToTopBtn">
-                <img src="photos/top-of-page.svg"></img>
-            </button>
-            </section>
-            <script src="js/scrollToTopBtn.js"></script>
-            <footer class="footer-bg">
-                <div class="columns is-centered">
-                    <div class="column is-narrow footer-nav">
-                        <a href="mailto: vivianknguyen96@gmail.com">
-                            <h3>
-                                <span class="green">
-                                    Email
-                                </span>
-                            </h3>
-                        </a>
-                    </div>
-                    <div class="column is-narrow footer-nav">
-                        <a href="https://www.linkedin.com/in/vivianknguyen96">
-                            <h3>
-                                <span class="green">
-                                    LinkedIn
-                                </span>
-                            </h3>
-                        </a>
-                    </div>
-                    <div class="column is-narrow footer-nav">
-                        <a href="https://www.instagram.com/designsbyviv">
-                            <h3>
-                                <span class="green">
-                                    Instagram
-                                </span>
-                            </h3>
-                        </a>
-                    </div>
-                </div>
-            </footer>
+      <section class="works-landing">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <h1>Motion<br />Design</h1>
+            <h6><span class="green">GIFS | Motion Graphics</span></h6>
+          </div>
+          <div class="column">
+            <h5>GIPHY</h5>
+            <p id="works">
+              For Microsoft Build 2023, the Creative team produced a collection
+              of 20 captivating GIFs strategically crafted as authentic content.
+              These GIFs were purposefully designed to be disseminated across
+              Microsoft's extensive array of social channels, aiming to generate
+              and amplify excitement surrounding the event.<br /><br />
+              In a remarkable testament to their success, within the initial 24
+              hours of their release, the GIFs proliferated across the Giphy
+              library, amassing an astounding 30.8 million views. Within the
+              first 48 hours, it reached 93.6 million views. Throughout the
+              entire week of Microsoft Build, the GIFs maintained their
+              momentum, accumulating a staggering total of over 109 million
+              views on Giphy.<br /><br />
+              Among this collection, the most high-performing GIF I made
+              garnered 80+ million views.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="works-beige">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <img src="photos/selected-works-motion.gif" />
+            <h6><span class="green">80+ Million Views</span></h6>
+          </div>
+          <div class="column">
+            <img src="photos/motion-lunch-break.gif" />
+            <h6><span class="green">989+ Thousand Views</span></h6>
+          </div>
+          <div class="column">
+            <img src="photos/motion-summer.gif" />
+            <h6><span class="green">202+ Thousand views</span></h6>
+          </div>
+          <div class="column">
+            <img src="photos/motion-pool.gif" />
+            <h6><span class="green">130+ Thousand views</span></h6>
+          </div>
+        </div>
+      </section>
+      <section class="has-text-centered">
+        <p class="call-out-text">
+          Currently, the Creative team's GIFs in the Giphy library has gained
+        </p>
+        <h1><span class="orange">1.1+</span> Billion Views</h1>
+      </section>
+      <section class="motion">
+        <h3 class="header">Others GIFs & stickers in the Giphy library:</h3>
+        <div class="columns is-vcentered is-centered">
+          <div class="column position-relative">
+            <img class="position-relative" src="photos/motion-typing-1.gif" />
+            <h6 class="img-caption">
+              <span class="white">598+ Thousand views</span>
+            </h6>
+          </div>
+          <div class="column position-relative">
+            <img class="position-relative" src="photos/motion-typing-2.gif" />
+            <h6 class="img-caption">
+              <span class="white">365+ Thousan</span
+              ><span class="black">d views</span>
+            </h6>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column is-2">
+            <img src="photos/Stickers/Azure/azure_{.gif" />
+            <img src="photos/Stickers/Azure/azure_clipR.gif" />
+          </div>
+          <div class="column is-2">
+            <img src="photos/Stickers/Azure/azure_}.gif" />
+            <img src="photos/Stickers/Azure/azure_clipL.gif" />
+          </div>
+          <div class="column is-2">
+            <img src="photos/Stickers/Azure/azure_parallelL.gif" />
+            <img src="photos/Stickers/Azure/azure_knotL.gif" />
+          </div>
+          <div class="column is-2">
+            <img src="photos/Stickers/Azure/azure_parallelR.gif" />
+            <img src="photos/Stickers/Azure/azure_knotR.gif" />
+          </div>
+        </div>
+        <div class="columns grid-margin">
+          <div class="column is-2">
+            <img src="photos/Stickers/{.gif" />
+            <img src="photos/Stickers/clipR.gif" />
+          </div>
+          <div class="column is-2">
+            <img src="photos/Stickers/}.gif" />
+            <img src="photos/Stickers/clipL.gif" />
+          </div>
+          <div class="column is-2">
+            <img src="photos/Stickers/parallelL.gif" />
+            <img src="photos/Stickers/knotL.gif" />
+          </div>
+          <div class="column is-2">
+            <img src="photos/Stickers/parallelR.gif" />
+            <img src="photos/Stickers/knotR.gif" />
+          </div>
+        </div>
+      </section>
+      <section class="works-landing">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <img src="photos/motion-clippy.gif" />
+          </div>
+          <div class="column works-landing-content">
+            <h5>Custom Engagement Motion Graphics</h5>
+            <p id="works">
+              For each event held by Microsoft, our team would create real-time
+              custom GIFs to engage with the audience on X (formerly known as
+              Twitter). Here are a few GIFs made to interact with these
+              audiences.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="margins">
+        <div class="columns">
+          <div class="column position-relative is-4">
+            <img src="photos/motion-arcade.gif" />
+          </div>
+          <div class="column position-relative is-4">
+            <img src="photos/motion-high-five.gif" />
+          </div>
+          <div class="column position-relative is-4">
+            <img src="photos/motion-kickoff.gif" />
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column position-relative is-4">
+            <img src="photos/motion-hand-huddle.gif" />
+          </div>
+          <div class="column position-relative is-4">
+            <img src="photos/motion-badge.gif" />
+          </div>
+          <div class="column position-relative is-4">
+            <img src="photos/motion-watch.gif" />
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column position-relative is-4">
+            <img src="photos/motion-vacation.gif" />
+          </div>
+          <div class="column position-relative is-4">
+            <img src="photos/motion-cheers.gif" />
+          </div>
+          <div class="column position-relative is-4">
+            <img src="photos/motion-see-you-there.gif" />
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column position-relative is-4">
+            <img src="photos/motion-wave.gif" />
+          </div>
+          <div class="column position-relative is-4">
+            <img src="photos/motion-mvp.gif" />
+          </div>
+          <div class="column position-relative is-4">
+            <img src="photos/motion-rooting-for-you.gif" />
+          </div>
+        </div>
+        <a href="works.html">
+          <button class="works-end-btn">
+            <h6 class="btn">
+              <span class="black">View all Works</span>
+              <svg
+                class="work-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="15"
+                height="15"
+                viewBox="0 0 15 15"
+                fill="none"
+              >
+                <path
+                  d="M6.25 10.625L9.375 7.5L6.25 4.375"
+                  stroke="#202020"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </h6>
+          </button>
+        </a>
+      </section>
+      <section class="ending">
+        <div>
+          <h1 class="has-text-centered">Create together.</h1>
+          <p class="has-text-centered end-pg">
+            Feel free to connect with me via e-mail or through any other social
+            media platform. &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;
+            <u>Let's create something great!</u>
+          </p>
+        </div>
+      </section>
+      <section>
+        <button class="scrollToTopBtn">
+          <img src="photos/top-of-page.svg" //>
+        </button>
+      </section>
     </main>
-</body>
 
-
+    <script src="js/scrollToTopBtn.js"></script>
+    <footer class="footer-bg">
+      <div class="columns is-centered">
+        <div class="column is-narrow footer-nav">
+          <a href="mailto: vivianknguyen96@gmail.com">
+            <h3>
+              <span class="green"> Email </span>
+            </h3>
+          </a>
+        </div>
+        <div class="column is-narrow footer-nav">
+          <a href="https://www.linkedin.com/in/vivianknguyen96">
+            <h3>
+              <span class="green"> LinkedIn </span>
+            </h3>
+          </a>
+        </div>
+        <div class="column is-narrow footer-nav">
+          <a href="https://www.instagram.com/designsbyviv">
+            <h3>
+              <span class="green"> Instagram </span>
+            </h3>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
