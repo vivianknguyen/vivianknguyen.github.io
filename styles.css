@@ -2,7 +2,7 @@ body {
     font-family: 'Libre Baskerville', serif;
     font-family: 'Montserrat', sans-serif;
     background-color: #FCFCFC;
-    width: 100vw;
+    max-width: 1440px;
 
 }
 
