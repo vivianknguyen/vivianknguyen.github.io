@@ -580,6 +580,10 @@ svg.work-icon {
     height: 700px;
 }
 
+.headshot-about {
+    width: 80px;
+}
+
 .contact {
     width: 100vw;
     text-align: center;
@@ -753,7 +757,7 @@ button {
 
     p.description {
         padding-top: 20px;
-        width: 407px;
+        width: auto;
     }
 
     .about-page {
