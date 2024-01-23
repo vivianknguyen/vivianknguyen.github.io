@@ -779,32 +779,14 @@ button {
         color: #EAA509;
     }
 
-    h1.vivian {
-        font-family: 'Strippy', sans-serif;
-        font-size: 156px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 88%;
-        letter-spacing: 4.8px;
-        color: #EFDC8E;
-        margin-top: -3%;
-    }
-    
-    h1.nguyen {
-        font-family: 'Strippy', sans-serif;
-        font-size: 136px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 88%;
-        letter-spacing: 4.8px;
-        color: #BB280A;
-        margin-top: -10%;
-        margin-bottom: -59%;
+    .home {
+        margin-bottom: -8.5%;
     }
 
     .headshot {
-        height: 250px;
-        margin-left: 240px;
+        height: 300px;
+        margin-top: -200%;
+        margin-left: 210px;
         margin-bottom: -7px;
     }
 
