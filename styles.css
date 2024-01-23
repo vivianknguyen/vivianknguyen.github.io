@@ -780,14 +780,7 @@ button {
     }
 
     .home {
-        margin-bottom: -8.5%;
-    }
-
-    .headshot {
-        height: 300px;
-        margin-top: -62.5%;
-        margin-left: 180px;
-        margin-bottom: -15px;
+        margin-top: -12%;
     }
 
     .headshot2 {
@@ -804,10 +797,6 @@ button {
 
     .home-landing {
         height: auto;
-    }
-    
-    .img-home-pg {
-        border-bottom: 1px solid #EFDC8E;
     }
 
     .ending {
