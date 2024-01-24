@@ -7,10 +7,14 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #0A150A;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 html {
     scroll-behavior: smooth;
+    background-color: #0A150A;
 }
 
 nav {
@@ -90,7 +94,7 @@ h1.mobile {
 
 h1.vivian {
     font-family: 'Strippy', sans-serif;
-    font-size: 750px;
+    font-size: 550px;
     font-style: normal;
     font-weight: 700;
     line-height: 88%;
@@ -101,7 +105,7 @@ h1.vivian {
 
 h1.nguyen {
     font-family: 'Strippy', sans-serif;
-    font-size: 650px;
+    font-size: 480px;
     font-style: normal;
     font-weight: 700;
     line-height: 88%;
@@ -136,7 +140,7 @@ h1.about-nguyen {
 
 h1.design {
     font-family: 'Strippy', sans-serif;
-    font-size: 250px;
+    font-size: 200px;
     font-style: normal;
     font-weight: 400;
     line-height: 88%;
@@ -148,7 +152,7 @@ h1.design {
 
 h1.let {
     font-family: 'Strippy', sans-serif;
-    font-size: 385px;
+    font-size: 295px;
     font-style: normal;
     font-weight: 400;
     line-height: 88%;
@@ -159,7 +163,7 @@ h1.let {
 
 h1.together {
     font-family: 'Strippy', sans-serif;
-    font-size: 445px;
+    font-size: 335px;
     font-style: normal;
     font-weight: 400;
     line-height: 88%;
@@ -374,9 +378,6 @@ li {
 
 .home-landing {
     padding-top: 10%;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100vw;
 }
 
 .home-page {
@@ -424,6 +425,7 @@ li {
 
 .img-home-pg {
     border-bottom: 1px solid #EFDC8E;
+    margin: 0;
 }
 
 .about-page {
@@ -567,7 +569,7 @@ li {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    width: 5000px;
+    width: 400px;
 }
 
 .img-cover {
@@ -581,14 +583,14 @@ svg.work-icon {
 }
 
 .headshot {
-    height: 1000px;
+    height: 750px;
     margin-bottom: -7px;
 }
 
 .headshot2 {
     height: 800px;
     margin-top: -700px;
-    margin-left: 830px;
+    margin-left: 730px;
 }
 
 .headshot-about {
@@ -601,11 +603,8 @@ svg.work-icon {
 }
 
 .contact-page {
-    padding-top: 10%;
+    padding-top: 15%;
     height: 75vh;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100vw;
 }
 
 .contact-page2 {
@@ -655,9 +654,14 @@ svg.work-icon {
     margin-top: -8%;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
     text-align: center;
     z-index: 0;
+}
+
+.columns {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .design2 {
@@ -713,8 +717,8 @@ svg.work-icon {
 
 .work-page {
     padding-top: 15%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 5%;
 }
 
