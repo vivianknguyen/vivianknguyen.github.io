@@ -7,7 +7,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #0A150A;
-    max-width: 1440px;
+    max-width: 1920px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -94,25 +94,25 @@ h1.mobile {
 
 h1.vivian {
     font-family: 'Strippy', sans-serif;
-    font-size: 550px;
+    font-size: 720px;
     font-style: normal;
     font-weight: 700;
     line-height: 88%;
     letter-spacing: 4.8px;
     color: #EFDC8E;
-    margin-top: -3%;
+    margin-top: -3.5%;
 }
 
 h1.nguyen {
     font-family: 'Strippy', sans-serif;
-    font-size: 480px;
+    font-size: 630px;
     font-style: normal;
     font-weight: 700;
     line-height: 88%;
     letter-spacing: 4.8px;
     color: #BB280A;
-    margin-top: -10%;
-    margin-bottom: -52.9%;
+    margin-top: -11%;
+    margin-bottom: -48.1%;
 }
 
 h1.about-vivian {
@@ -140,7 +140,7 @@ h1.about-nguyen {
 
 h1.design {
     font-family: 'Strippy', sans-serif;
-    font-size: 200px;
+    font-size: 250px;
     font-style: normal;
     font-weight: 400;
     line-height: 88%;
@@ -152,7 +152,7 @@ h1.design {
 
 h1.let {
     font-family: 'Strippy', sans-serif;
-    font-size: 295px;
+    font-size: 385px;
     font-style: normal;
     font-weight: 400;
     line-height: 88%;
@@ -163,7 +163,7 @@ h1.let {
 
 h1.together {
     font-family: 'Strippy', sans-serif;
-    font-size: 335px;
+    font-size: 450px;
     font-style: normal;
     font-weight: 400;
     line-height: 88%;
@@ -182,7 +182,7 @@ h2 {
     text-transform: uppercase;
 }
 
-h2.works{
+h2.works {
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -224,7 +224,7 @@ h4.works-header {
 h4.works-header2 {
     padding-top: 60px;
     padding-bottom: 10px;
-        text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 h4 {
@@ -453,7 +453,7 @@ li {
     margin-right: 10%;
 }
 
-.ending:hover .end-pg{
+.ending:hover .end-pg {
     color: #BB280A;
 }
 
@@ -583,14 +583,14 @@ svg.work-icon {
 }
 
 .headshot {
-    height: 750px;
+    height: 900px;
     margin-bottom: -7px;
 }
 
 .headshot2 {
-    height: 800px;
-    margin-top: -700px;
-    margin-left: 730px;
+    height: 900px;
+    margin-top: -800px;
+    margin-left: 930px;
 }
 
 .headshot-about {
@@ -603,7 +603,7 @@ svg.work-icon {
 }
 
 .contact-page {
-    padding-top: 15%;
+    padding-top: 10%;
     height: 75vh;
 }
 
@@ -651,10 +651,10 @@ svg.work-icon {
 .design-pg {
     padding-top: 20%;
     height: 100vh;
-    margin-top: -8%;
+    margin-top: -10%;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
     text-align: center;
     z-index: 0;
 }
@@ -717,8 +717,8 @@ svg.work-icon {
 
 .work-page {
     padding-top: 15%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-bottom: 5%;
 }
 
@@ -773,6 +773,163 @@ button {
     border-color: #193f19;
 }
 
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+    body {
+        font-family: 'Montserrat', sans-serif;
+        background-color: #0A150A;
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    h1 {
+        font-family: 'Strippy', sans-serif;
+        font-size: 120px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 88%;
+        letter-spacing: 4.8px;
+        color: #EAA509;
+        text-transform: uppercase;
+    }
+
+    h1.mobile {
+        font-family: 'Strippy', sans-serif;
+        font-size: 120px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 88%;
+        letter-spacing: 4.8px;
+        color: #EAA509;
+        text-transform: uppercase;
+    }
+
+
+    h1.vivian {
+        font-family: 'Strippy', sans-serif;
+        font-size: 550px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 88%;
+        letter-spacing: 4.8px;
+        color: #EFDC8E;
+        margin-top: -3%;
+    }
+
+    h1.nguyen {
+        font-family: 'Strippy', sans-serif;
+        font-size: 480px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 88%;
+        letter-spacing: 4.8px;
+        color: #BB280A;
+        margin-top: -10%;
+        margin-bottom: -52.9%;
+    }
+
+    h1.about-vivian {
+        font-family: 'Strippy', sans-serif;
+        font-size: 280px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 88%;
+        color: #EFDC8E;
+        margin-top: -5%;
+        text-transform: uppercase;
+    }
+
+    h1.about-nguyen {
+        font-family: 'Strippy', sans-serif;
+        font-size: 280px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 88%;
+        color: #BB280A;
+        margin-top: -7%;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+    h1.design {
+        font-family: 'Strippy', sans-serif;
+        font-size: 180px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 88%;
+        letter-spacing: 10px;
+        color: #EFDC8E;
+        text-transform: uppercase;
+        margin-top: -25px;
+    }
+
+    h1.let {
+        font-family: 'Strippy', sans-serif;
+        font-size: 295px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 88%;
+        letter-spacing: 4.8px;
+        color: #EFDC8E;
+        margin-top: -3%;
+    }
+
+    h1.together {
+        font-family: 'Strippy', sans-serif;
+        font-size: 335px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 88%;
+        letter-spacing: 4.8px;
+        color: #BB280A;
+        margin-top: -6%;
+    }
+
+    .headshot {
+        height: 750px;
+        margin-bottom: -7px;
+    }
+    
+    .headshot2 {
+        height: 800px;
+        margin-top: -720px;
+        margin-left: 730px;
+    }
+    
+    .headshot-about {
+        width: 80px;
+    }
+
+    .img-home-pg {
+        border-bottom: 1px solid #EFDC8E;
+        margin: 0;
+    }
+
+    .design-pg {
+        padding-top: 20%;
+        height: 100vh;
+        margin-top: -5%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 10%;
+        text-align: center;
+        z-index: 0;
+    }
+
+    .contact-page {
+        padding-top: 15%;
+        height: 75vh;
+    }
+
+    .work-page {
+        padding-top: 15%;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 5%;
+    }
+}
+
 @media screen and (max-width: 769px) {
     h1 {
         font-family: 'Strippy', sans-serif;
@@ -819,7 +976,7 @@ button {
         margin-top: -5%;
         text-transform: uppercase;
     }
-    
+
     h1.about-nguyen {
         font-family: 'Strippy', sans-serif;
         font-size: 100px;
@@ -897,7 +1054,7 @@ button {
         color: #EFDC8E;
         text-transform: uppercase;
     }
- 
+
     h5.design {
         padding-top: 30px;
     }
@@ -934,7 +1091,7 @@ button {
         padding-top: 10%;
         background-color: #F8F0E4;
     }
-    
+
     .ideate {
         margin-top: 0;
         padding-left: 10%;
@@ -943,7 +1100,7 @@ button {
         padding-top: 10%;
         background-color: #EAA509;
     }
-    
+
     .create {
         padding-left: 10%;
         padding-right: 10%;
@@ -952,7 +1109,7 @@ button {
         margin-bottom: 0;
         background-color: #202020;
     }
-    
+
     .collab {
         padding-left: 10%;
         padding-right: 10%;
@@ -970,7 +1127,7 @@ button {
         letter-spacing: 4.8px;
         color: #EFDC8E;
     }
-    
+
     h1.together {
         font-family: 'Strippy', sans-serif;
         font-size: 94px;
