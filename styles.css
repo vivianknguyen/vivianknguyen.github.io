@@ -112,7 +112,7 @@ h1.nguyen {
     letter-spacing: 4.8px;
     color: #BB280A;
     margin-top: -11%;
-    margin-bottom: -48.1%;
+    margin-bottom: -15px;
 }
 
 h1.about-vivian {
@@ -408,6 +408,10 @@ li {
     margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.btm-border {
+    border-bottom: 1px solid #EFDC8E;
 }
 
 .explore {
@@ -826,7 +830,7 @@ button {
         letter-spacing: 4.8px;
         color: #BB280A;
         margin-top: -10%;
-        margin-bottom: -52.9%;
+        margin-bottom: -12px;
     }
 
     h1.about-vivian {
@@ -938,6 +942,38 @@ button {
         font-weight: 700;
         line-height: 88%;
         color: #EAA509;
+    }
+
+    h1.vivian {
+        font-family: 'Strippy', sans-serif;
+        font-size: 156px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 88%;
+        letter-spacing: 4.8px;
+        color: #EFDC8E;
+        margin-top: -3%;
+    }
+
+    h1.nguyen {
+        font-family: 'Strippy', sans-serif;
+        font-size: 137px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 88%;
+        letter-spacing: 4.8px;
+        color: #BB280A;
+        margin-top: -10%;
+        margin-bottom: -5px;
+    }
+
+    h3 {
+        font-family: 'Strippy', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: #EFDC8E;
     }
 
     .home {
